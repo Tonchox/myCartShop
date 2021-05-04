@@ -1,0 +1,9 @@
+{   
+    "cliente":{"idCliente":1,"username":"test1","password":"1234","vip":1},
+    "importeTotal":5000,
+    "fechaCompra":"2021-05-03",
+    "listaDetalleCarrito":[{"producto":{"idProducto":1,"descripcion":"Playstation 5","cantidad":1,"precio":5000},"precio":5000,"precioTotal":5000,"cantidadProducto":1}]
+}
+
+GET
+http://localhost:8080/api/productos
